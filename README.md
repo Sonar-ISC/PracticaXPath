@@ -38,14 +38,13 @@ xmllint --xpath $XPath $Path
   xmllint --xpath "/" Catalog.xml
   ~~~
 3. Preparar en un .txt los comandos XPath que den solución a las siguientes consultas:
-  a. Seleccionar todos los títulos de libros
-  b. Seleccionar todos los libros de fantasía
-  c. Seleccionar el precio del libro con ID "bk105"
-  d. Seleccionar todos los libros publicados después del año 2000
-  e. Seleccionar el autor del libro con título "Microsoft .NET: The Programming Bible"
-  f. Seleccionar todos los libros cuyos precios son mayores a 10
-  g. Seleccionar todos los libros de la categoría "Computer" publicados en diciembre de 2000
-  h. Seleccionar todos los libros ubicados después del libro con ID "bk106" (Lover Birds)
-  i. Seleccionar todos los libros ubicados antes del libro con ID "bk108" (Creepy Crawlies)
-4. Realizar una Pull Request con las respuestas a este taller (Documento guía disponible en el repositorio).
-.
+ - Seleccionar todos los títulos de libros
+ - Seleccionar todos los libros de fantasía
+ - Seleccionar el precio del libro con ID "bk105"
+ - Seleccionar todos los libros publicados después del año 2000
+ - Seleccionar el autor del libro con título "Microsoft .NET: The Programming Bible"
+ - Seleccionar todos los libros cuyos precios son mayores a 10
+ - Seleccionar todos los libros de la categoría "Computer" publicados en diciembre de 2000
+ - Seleccionar todos los libros ubicados después del libro con ID "bk106" (Lover Birds)
+ - Seleccionar todos los libros ubicados antes del libro con ID "bk108" (Creepy Crawlies) 
+5. Realizar una Pull Request con las respuestas a este taller (Documento guía disponible en el repositorio).
