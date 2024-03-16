@@ -58,5 +58,4 @@ Link: https://www.freeformatter.com/xpath-tester.html
  - Seleccionar todos los libros ubicados después del libro con ID "bk106" (Lover Birds)
  - Seleccionar todos los libros ubicados antes del libro con ID "bk108" (Creepy Crawlies)
  - Seleccionar todos los libros que contengan la palabra "XML" en la descripción
-
-4. Realizar una Pull Request con las respuestas a este taller (Documento guía disponible en el repositorio).
+5. Realizar una Pull Request con las respuestas a este taller (Documento guía disponible en el repositorio).
