@@ -1,0 +1,12 @@
+ - Seleccionar todos los títulos de libros
+ R// 
+
+ - Seleccionar todos los libros de fantasía
+ - Seleccionar el precio del libro con ID "bk105"
+ - Seleccionar todos los libros publicados después del año 2000
+ - Seleccionar el autor del libro con título "Microsoft .NET: The Programming Bible"
+ - Seleccionar todos los libros cuyos precios son mayores a 10
+ - Seleccionar todos los libros de la categoría "Computer" publicados en diciembre de 2000
+ - Seleccionar todos los libros ubicados después del libro con ID "bk106" (Lover Birds)
+ - Seleccionar todos los libros ubicados antes del libro con ID "bk108" (Creepy Crawlies)
+ - Seleccionar todos los libros que contengan la palabra "XML" en la descripción
