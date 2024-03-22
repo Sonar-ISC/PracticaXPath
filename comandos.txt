@@ -1,12 +1,30 @@
  - Seleccionar todos los títulos de libros
- R// 
+ R// xmllint --xpath "/catalog/book/title" Catalog.xml
 
  - Seleccionar todos los libros de fantasía
+R// xmllint --xpath "/catalog/book[./genre = 'Fantasy']" Catalog.xml
+
  - Seleccionar el precio del libro con ID "bk105"
+ R // xmllint --xpath "/catalog/book[@id = 'bk105']" Catalog.xml
+
  - Seleccionar todos los libros publicados después del año 2000
+ R// xmllint --xpath "/catalog/book[number(substring(publish_date, 1, 4)) > 2000]" Catalog.xml
+
  - Seleccionar el autor del libro con título "Microsoft .NET: The Programming Bible"
+ R// xmllint --xpath "/catalog/book[./title = 'Microsoft .NET: The Programming Bible']/author" Catalog.xml
+
  - Seleccionar todos los libros cuyos precios son mayores a 10
+ R// xmllint --xpath "/catalog/book[number(price) > 10]" Catalog.xml
+
  - Seleccionar todos los libros de la categoría "Computer" publicados en diciembre de 2000
+ R// xmllint --xpath "/catalog/book[genre = 'Computer' and substring(publish_date,1,7) = '2000-12']" Catalog.xml
+
  - Seleccionar todos los libros ubicados después del libro con ID "bk106" (Lover Birds)
+ R// xmllint --xpath "/catalog/book[@id = 'bk106']/following-sibling::*" Catalog.xml
+
  - Seleccionar todos los libros ubicados antes del libro con ID "bk108" (Creepy Crawlies)
+ R// xmllint --xpath "/catalog/book[@id = 'bk108']/preceding-sibling::*" Catalog.xml
+
  - Seleccionar todos los libros que contengan la palabra "XML" en la descripción
+ R// xmllint --xpath "/catalog/book[contains(description, 'XML')]" Catalog.xml
+
